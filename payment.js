@@ -58,7 +58,7 @@ function handleVerification(isVerified) {
         selectedEvents: selectedEvents
     };
 
-    fetch('http://192.168.185.82:3000/verify-registration', {
+    fetch('', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
